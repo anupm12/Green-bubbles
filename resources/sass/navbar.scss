@@ -17,9 +17,11 @@
 .nav-btn{
 
     background: $blue;
-
-    a{
-        color:#fff !important;
-    }
+    border-radius: 1rem;
+    color:#fff !important;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items:center;
 }
 

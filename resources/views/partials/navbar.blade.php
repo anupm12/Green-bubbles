@@ -26,8 +26,8 @@
         <li class="nav-item">
             <a class="nav-link sign-up" href="#">Sign Up </a>
         </li>
-        <li class="nav-item nav-btn">
-            <a class="nav-link " href="#">Book</a>
+        <li class="nav-item ">
+            <a class="nav-link nav-btn" href="#">Book</a>
         </li>
       </ul>
 
