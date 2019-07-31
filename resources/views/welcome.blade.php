@@ -22,7 +22,7 @@
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <div class="hero-img">
-                        <img src="{{ url('img/vector/herosvg.svg') }}" alt="herosvg">
+                        <img class="no-vector" src="{{ url('img/vector/herosvg.svg') }}" alt="herosvg">
                     </div>
                 </div>
 
@@ -163,6 +163,25 @@
                     </form>
                 </div>
 
+            </div>
+        </div>
+    </section>
+
+
+    {{-- into section --}}
+    <section class="pt-5 intro">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 pt-13">
+                    <h2>Heading</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <a href="" class="btn book-btn mt-5">Book</a>
+                </div>
+                <div class="col-md-6 pt-13">
+                    <img class="no-vector" style="width:100%;" src="{{ url('img/vector/introsvg.svg') }}" alt="">
+                </div>
             </div>
         </div>
     </section>

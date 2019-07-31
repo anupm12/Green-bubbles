@@ -34,3 +34,40 @@
     width: 13rem;
     border-radius: 1rem;
 }
+
+
+// intro section
+.intro{
+    background: url('../img/vector/wave.svg');
+    background-size: cover;
+    height: 100vh;
+
+    h2{
+
+        color: #fff;
+    }
+
+    p{
+        font-size: 1.25rem;
+        color: #fff;
+    }
+}
+
+.pt-13{
+    padding-top: 13rem;
+}
+
+.book-btn{
+    width: 15rem;
+    background: #fff;
+    font-size: 1.25rem;
+    border-radius: 1rem;
+    font-weight: 600;
+    color: #000;
+}
+
+@media screen and (max-width: 768px) {
+    .no-vector{
+        display: none;
+    }
+}
