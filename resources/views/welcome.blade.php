@@ -22,7 +22,7 @@
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <div class="hero-img">
-                        <img src="{{ url('img/vector/herosvg.svg') }}" alt="herosvg">
+                        <img class="no-vector" src="{{ url('img/vector/herosvg.svg') }}" alt="herosvg">
                     </div>
                 </div>
 
@@ -165,6 +165,97 @@
 
             </div>
         </div>
+    </section>
+
+
+    {{-- into section --}}
+    <section class="pt-5 intro">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 pt-13">
+                    <h2>Heading</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                    <p>Lorem ipsum dolor sit.</p>
+                    <a href="" class="btn book-btn mt-5">Book</a>
+                </div>
+                <div class="col-md-6 pt-13">
+                    <img class="no-vector" style="width:100%;" src="{{ url('img/vector/introsvg.svg') }}" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{-- Features --}}
+    <section class="pt-5 features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="row pt-4">
+                <div class="col-md-4">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img src="{{ url('img/vector/features/sunday.svg') }}">
+                        <p>Open on Sundays</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                <img src="{{ url('img/vector/features/meeting_room.svg') }}">
+                                <p>Meeting Room</p>
+                        </div>
+                </div>
+                <div class="col-md-4">
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                <img src="{{ url('img/vector/features/hotdesk.svg') }}">
+                                <p>Hot Desk</p>
+                        </div>
+                </div>
+            </div>
+
+            <div class="row pt-4">
+                    <div class="col-md-4">
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                            <img src="{{ url('img/vector/features/conference.svg') }}">
+                            <p>Conference Room</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                            <div class="d-flex flex-column justify-content-center align-items-center">
+                                    <img src="{{ url('img/vector/features/boardroom.svg') }}">
+                                    <p>BoardRoom</p>
+                            </div>
+                    </div>
+                    <div class="col-md-4">
+                            <div class="d-flex flex-column justify-content-center align-items-center">
+                                    <img src="{{ url('img/vector/features/interview.svg') }}">
+                                    <p>Interview Room</p>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="row pt-4">
+                        <div class="col-md-4">
+                            <div class="d-flex flex-column justify-content-center align-items-center">
+                                <img src="{{ url('img/vector/features/training.svg') }}">
+                                <p>Training Room</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                                <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img src="{{ url('img/vector/features/creative.svg') }}">
+                                        <p>Creative Room</p>
+                                </div>
+                        </div>
+                        <div class="col-md-4">
+                                <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img src="{{ url('img/vector/features/plugandplay.svg') }}">
+                                        <p>Plug and Play</p>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+
+
+
     </section>
 
 </body>

@@ -48,4 +48,37 @@ body {
   width: 13rem;
   border-radius: 1rem; }
 
+.intro {
+  background: url("../img/vector/wave.svg");
+  background-size: cover;
+  height: 100vh; }
+  .intro h2 {
+    color: #fff; }
+  .intro p {
+    font-size: 1.25rem;
+    color: #fff; }
+
+.pt-13 {
+  padding-top: 13rem; }
+
+.book-btn {
+  width: 15rem;
+  background: #fff;
+  font-size: 1.25rem;
+  border-radius: 1rem;
+  font-weight: 600;
+  color: #000; }
+
+.features h2 {
+  color: #000;
+  font-weight: 600; }
+.features p {
+  color: #000;
+  font-weight: 600;
+  padding-top: 1rem; }
+
+@media screen and (max-width: 768px) {
+  .no-vector {
+    display: none; } }
+
 /*# sourceMappingURL=homepage.css.map */
