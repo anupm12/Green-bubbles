@@ -16,8 +16,36 @@ body {
   font-weight: 600; }
 
 .nav-btn {
-  background: #2286C7; }
-  .nav-btn a {
-    color: #fff !important; }
+  background: #2286C7;
+  border-radius: 1rem;
+  color: #fff !important;
+  width: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.hero-img {
+  display: flex;
+  justify-content: center; }
+  .hero-img img {
+    width: 100%; }
+
+.icon-input {
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  background: #fff;
+  border-right: transparent; }
+
+.input {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-left: transparent; }
+
+.btn-search {
+  background: #2286C7;
+  color: #fff;
+  font-weight: 600;
+  width: 13rem;
+  border-radius: 1rem; }
 
 /*# sourceMappingURL=homepage.css.map */
