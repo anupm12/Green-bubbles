@@ -66,8 +66,22 @@
     color: #000;
 }
 
+.features{
+    h2{
+        color: #000;
+        font-weight: 600;
+    }
+    p{
+        color: #000;
+        font-weight: 600;
+        padding-top: 1rem;
+    }
+}
+
+
 @media screen and (max-width: 768px) {
     .no-vector{
         display: none;
     }
 }
+

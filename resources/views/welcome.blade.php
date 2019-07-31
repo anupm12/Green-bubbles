@@ -186,6 +186,78 @@
         </div>
     </section>
 
+    {{-- Features --}}
+    <section class="pt-5 features">
+        <div class="container">
+            <h2>Features</h2>
+            <div class="row pt-4">
+                <div class="col-md-4">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img src="{{ url('img/vector/features/sunday.svg') }}">
+                        <p>Open on Sundays</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                <img src="{{ url('img/vector/features/meeting_room.svg') }}">
+                                <p>Meeting Room</p>
+                        </div>
+                </div>
+                <div class="col-md-4">
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                <img src="{{ url('img/vector/features/hotdesk.svg') }}">
+                                <p>Hot Desk</p>
+                        </div>
+                </div>
+            </div>
+
+            <div class="row pt-4">
+                    <div class="col-md-4">
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                            <img src="{{ url('img/vector/features/conference.svg') }}">
+                            <p>Conference Room</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                            <div class="d-flex flex-column justify-content-center align-items-center">
+                                    <img src="{{ url('img/vector/features/boardroom.svg') }}">
+                                    <p>BoardRoom</p>
+                            </div>
+                    </div>
+                    <div class="col-md-4">
+                            <div class="d-flex flex-column justify-content-center align-items-center">
+                                    <img src="{{ url('img/vector/features/interview.svg') }}">
+                                    <p>Interview Room</p>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="row pt-4">
+                        <div class="col-md-4">
+                            <div class="d-flex flex-column justify-content-center align-items-center">
+                                <img src="{{ url('img/vector/features/training.svg') }}">
+                                <p>Training Room</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                                <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img src="{{ url('img/vector/features/creative.svg') }}">
+                                        <p>Creative Room</p>
+                                </div>
+                        </div>
+                        <div class="col-md-4">
+                                <div class="d-flex flex-column justify-content-center align-items-center">
+                                        <img src="{{ url('img/vector/features/plugandplay.svg') }}">
+                                        <p>Plug and Play</p>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+
+
+
+    </section>
+
 </body>
 @include('partials.jsfile')
 <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
