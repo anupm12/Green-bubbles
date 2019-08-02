@@ -198,65 +198,374 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                        <div class="d-flex flex-column justify-content-center align-items-center">
-                                <img src="{{ url('img/vector/features/meeting_room.svg') }}">
-                                <p>Meeting Room</p>
-                        </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img src="{{ url('img/vector/features/meeting_room.svg') }}">
+                        <p>Meeting Room</p>
+                    </div>
                 </div>
                 <div class="col-md-4">
-                        <div class="d-flex flex-column justify-content-center align-items-center">
-                                <img src="{{ url('img/vector/features/hotdesk.svg') }}">
-                                <p>Hot Desk</p>
-                        </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img src="{{ url('img/vector/features/hotdesk.svg') }}">
+                        <p>Hot Desk</p>
+                    </div>
                 </div>
             </div>
 
             <div class="row pt-4">
-                    <div class="col-md-4">
-                        <div class="d-flex flex-column justify-content-center align-items-center">
-                            <img src="{{ url('img/vector/features/conference.svg') }}">
-                            <p>Conference Room</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                            <div class="d-flex flex-column justify-content-center align-items-center">
-                                    <img src="{{ url('img/vector/features/boardroom.svg') }}">
-                                    <p>BoardRoom</p>
-                            </div>
-                    </div>
-                    <div class="col-md-4">
-                            <div class="d-flex flex-column justify-content-center align-items-center">
-                                    <img src="{{ url('img/vector/features/interview.svg') }}">
-                                    <p>Interview Room</p>
-                            </div>
+                <div class="col-md-4">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img src="{{ url('img/vector/features/conference.svg') }}">
+                        <p>Conference Room</p>
                     </div>
                 </div>
-
-                <div class="row pt-4">
-                        <div class="col-md-4">
-                            <div class="d-flex flex-column justify-content-center align-items-center">
-                                <img src="{{ url('img/vector/features/training.svg') }}">
-                                <p>Training Room</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                                <div class="d-flex flex-column justify-content-center align-items-center">
-                                        <img src="{{ url('img/vector/features/creative.svg') }}">
-                                        <p>Creative Room</p>
-                                </div>
-                        </div>
-                        <div class="col-md-4">
-                                <div class="d-flex flex-column justify-content-center align-items-center">
-                                        <img src="{{ url('img/vector/features/plugandplay.svg') }}">
-                                        <p>Plug and Play</p>
-                                </div>
-                        </div>
+                <div class="col-md-4">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img src="{{ url('img/vector/features/boardroom.svg') }}">
+                        <p>BoardRoom</p>
                     </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img src="{{ url('img/vector/features/interview.svg') }}">
+                        <p>Interview Room</p>
+                    </div>
+                </div>
             </div>
+
+            <div class="row pt-4">
+                <div class="col-md-4">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img src="{{ url('img/vector/features/training.svg') }}">
+                        <p>Training Room</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img src="{{ url('img/vector/features/creative.svg') }}">
+                        <p>Creative Room</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img src="{{ url('img/vector/features/plugandplay.svg') }}">
+                        <p>Plug and Play</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
     </section>
+
+    <section class="pt-5  pricing">
+        <div class="blue-area pb-5">
+            <div class="container">
+                <h2 class="pt-2">Pricing</h2>
+                <div class="row pt-3">
+                    <div class="col-md-3 col-mobile">
+                        <div class="card card-pricing">
+                            <div class="card-body">
+                                <p class="title-pricing">Hot Desks</p>
+                                <img class="card-img" src="{{ url('img/vector/features/hotdesk.svg') }}">
+                                <p class="pt-2 d-flex justify-content-center align-items-center">
+                                    <span><img src="{{ url('img/vector/ruppe.svg')}}"></span>
+                                    <span class="pl-2 price-number">79</span>
+                                    <span class="hour">/hour*</span>
+                                </p>
+
+                                <ul class="lists">
+                                    <li>
+                                        <span>
+                                            <ion-icon class="circle" name="radio-button-off"></ion-icon>
+                                        </span>
+                                        Seating for 1
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <ion-icon class="circle" name="radio-button-off"></ion-icon>
+                                        </span>
+                                        Free WiFi
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <ion-icon class="circle" name="radio-button-off"></ion-icon>
+                                        </span>
+                                        Tea/Coffee
+                                    </li>
+                                </ul>
+                                <div class="d-flex justify-content-center align-item-center">
+                                    <a href="#" class="btn mt-4 price-btn">
+                                        <span>Book</span>
+                                        <span class="pl-2"><ion-icon name="arrow-forward"></ion-icon></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-mobile">
+                        <div class="card card-pricing">
+                            <div class="card-body">
+                                <p class="title-pricing">Meeting Room</p>
+                                <img class="card-img" src="{{ url('img/vector/features/meeting_room.svg') }}">
+                                <p class="pt-2 d-flex justify-content-center align-items-center">
+                                    <span><img src="{{ url('img/vector/ruppe.svg')}}"></span>
+                                    <span class="pl-2 price-number">339</span>
+                                    <span class="hour">/hour*</span>
+                                </p>
+
+                                <ul class="lists">
+                                    <li>
+                                        <span>
+                                            <ion-icon class="circle" name="radio-button-off"></ion-icon>
+                                        </span>
+                                        Seating for 1
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <ion-icon class="circle" name="radio-button-off"></ion-icon>
+                                        </span>
+                                        Free WiFi
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <ion-icon class="circle" name="radio-button-off"></ion-icon>
+                                        </span>
+                                        Tea/Coffee
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <ion-icon class="circle" name="radio-button-off"></ion-icon>
+                                        </span>
+                                        Stationaries
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <ion-icon class="circle" name="radio-button-off"></ion-icon>
+                                        </span>
+                                        Privacy guaranteed
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <ion-icon class="circle" name="radio-button-off"></ion-icon>
+                                        </span>
+                                        Air-conditioned
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <ion-icon class="circle" name="radio-button-off"></ion-icon>
+                                        </span>
+                                        Whiteboard
+                                    </li>
+                                    <li>
+                                        <span>
+                                            <ion-icon class="circle" name="radio-button-off"></ion-icon>
+                                        </span>
+                                        Projector/LED display
+                                    </li>
+                                </ul>
+                                <div class="d-flex justify-content-center align-item-center">
+                                        <a href="#" class="btn mt-4 price-btn">
+                                            <span>Book</span>
+                                            <span class="pl-2"><ion-icon name="arrow-forward"></ion-icon></span>
+                                        </a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-mobile">
+                            <div class="card card-pricing">
+                                <div class="card-body">
+                                    <p class="title-pricing">Boardrooms</p>
+                                    <img class="card-img" src="{{ url('img/vector/features/BoardRoom.svg') }}">
+                                    <p class="pt-2 d-flex justify-content-center align-items-center">
+                                        <span><img src="{{ url('img/vector/ruppe.svg')}}"></span>
+                                        <span class="pl-2 price-number">539</span>
+                                        <span class="hour">/hour*</span>
+                                    </p>
+
+                                    <ul class="lists">
+                                        <li>
+                                            <span>
+                                                <ion-icon class="circle" name="radio-button-off"></ion-icon>
+                                            </span>
+                                            Seating for 1
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <ion-icon class="circle" name="radio-button-off"></ion-icon>
+                                            </span>
+                                            Free WiFi
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <ion-icon class="circle" name="radio-button-off"></ion-icon>
+                                            </span>
+                                            Tea/Coffee
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <ion-icon class="circle" name="radio-button-off"></ion-icon>
+                                            </span>
+                                            Stationaries
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <ion-icon class="circle" name="radio-button-off"></ion-icon>
+                                            </span>
+                                            Privacy guaranteed
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <ion-icon class="circle" name="radio-button-off"></ion-icon>
+                                            </span>
+                                            Air-conditioned
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <ion-icon class="circle" name="radio-button-off"></ion-icon>
+                                            </span>
+                                            Whiteboard
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <ion-icon class="circle" name="radio-button-off"></ion-icon>
+                                            </span>
+                                            Projector/LED display
+                                        </li>
+                                    </ul>
+                                    <div class="d-flex justify-content-center align-item-center">
+                                            <a href="#" class="btn mt-4 price-btn">
+                                                <span>Book</span>
+                                                <span class="pl-2"><ion-icon name="arrow-forward"></ion-icon></span>
+                                            </a>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-mobile">
+                                <div class="card card-pricing">
+                                    <div class="card-body">
+                                        <p class="title-pricing">Training Rooms</p>
+                                        <img class="card-img" src="{{ url('img/vector/features/training.svg') }}">
+                                        <p class="pt-2 d-flex justify-content-center align-items-center">
+                                            <span><img src="{{ url('img/vector/ruppe.svg')}}"></span>
+                                            <span class="pl-2 price-number">339</span>
+                                            <span class="hour">/hour*</span>
+                                        </p>
+
+                                        <ul class="lists">
+                                            <li>
+                                                <span>
+                                                    <ion-icon class="circle" name="radio-button-off"></ion-icon>
+                                                </span>
+                                                Seating for 1
+                                            </li>
+                                            <li>
+                                                <span>
+                                                    <ion-icon class="circle" name="radio-button-off"></ion-icon>
+                                                </span>
+                                                Free WiFi
+                                            </li>
+                                            <li>
+                                                <span>
+                                                    <ion-icon class="circle" name="radio-button-off"></ion-icon>
+                                                </span>
+                                                Tea/Coffee
+                                            </li>
+                                            <li>
+                                                <span>
+                                                    <ion-icon class="circle" name="radio-button-off"></ion-icon>
+                                                </span>
+                                                Stationaries
+                                            </li>
+                                            <li>
+                                                <span>
+                                                    <ion-icon class="circle" name="radio-button-off"></ion-icon>
+                                                </span>
+                                                Privacy guaranteed
+                                            </li>
+                                            <li>
+                                                <span>
+                                                    <ion-icon class="circle" name="radio-button-off"></ion-icon>
+                                                </span>
+                                                Air-conditioned
+                                            </li>
+                                            <li>
+                                                <span>
+                                                    <ion-icon class="circle" name="radio-button-off"></ion-icon>
+                                                </span>
+                                                Whiteboard
+                                            </li>
+                                            <li>
+                                                <span>
+                                                    <ion-icon class="circle" name="radio-button-off"></ion-icon>
+                                                </span>
+                                                Projector/LED display
+                                            </li>
+                                        </ul>
+                                        <div class="d-flex justify-content-center align-item-center">
+                                                <a href="#" class="btn mt-4 price-btn">
+                                                    <span>Book</span>
+                                                    <span class="pl-2"><ion-icon name="arrow-forward"></ion-icon></span>
+                                                </a>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-5 contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="row pt-4 d-flex justify-content-center align-items-center">
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center pt-4">
+                        <span class="pr-3"><ion-icon class="contact-icon" name="pin"></ion-icon></span>
+                        <span>102 street xyz</span>
+                    </div>
+
+                    <div class="d-flex align-items-center pt-4">
+                        <span class="pr-3"><ion-icon class="contact-icon" name="call"></ion-icon></span>
+                        <span>+91 8256452365</span>
+                    </div>
+
+                    <div class="d-flex align-items-center pt-4">
+                        <span class="pr-3"><ion-icon class="contact-icon" name="mail"></ion-icon></span>
+                        <span>contact@in.com</span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img style="width:100%;" src="{{ url('img/vector/contactimage.svg') }}" alt="">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 d-flex">
+                    <div class="pr-4"><img class="social-icon" src="{{ url('img/vector/facebook-logo.svg') }}" alt=""></div>
+                    <div class="pr-4"><img class="social-icon" src="{{ url('img/vector/twitter-social-logotype.svg') }}"></div>
+                    <div class="pr-4"><img class="social-icon" src="{{ url('img/vector/linkedin-logo.svg') }}" alt=""></ion-icon></div>
+                    <div class="pr-4"><img class="social-icon" src="{{ url('img/vector/instagram.svg') }}" alt=""></ion-icon></div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="mt-3 pt-5 d-flex justify-content-center align-item-center">
+        <p>2019 © GreenBubbles</p>
+    </footer>
 
 </body>
 @include('partials.jsfile')
