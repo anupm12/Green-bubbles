@@ -78,10 +78,110 @@
     }
 }
 
+//pricing
+.pricing{
+
+    h2{
+        color:#fff;
+        font-weight: 600;
+    }
+}
+.blue-area{
+    background: $blue;
+    border-bottom-left-radius: 5.5rem;
+}
+
+.card-pricing{
+    box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.25);
+}
+
+.title-pricing{
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.card-img{
+    display: flex;
+    justify-content: center;
+    height: 8rem;
+}
+
+.price-number{
+    color:$blue;
+    font-weight: 600;
+    font-size: 2.25rem;
+}
+
+.hour{
+    color:$blue;
+    font-weight: 600;
+}
+
+.lists{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-direction: column;
+
+    li{
+        font-size: 0.875rem;
+        color: #898989;
+        font-weight: 600;
+        padding-bottom: .5rem;
+    }
+}
+
+.circle{
+    color:#AADDF9;
+}
+
+.price-btn{
+    color:#fff;
+    background: $blue;
+    font-weight: 600;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 2rem;
+}
+
+.price-btn:hover{
+    color:#fff;
+}
+
+.contact{
+    font-size: 1.25rem;
+    font-weight: 600;
+
+
+    h2{
+        font-weight: 600;
+    }
+}
+
+.contact-icon{
+    color: $blue;
+}
+
+.social-icon{
+    height: 1.7rem;
+}
+
+footer{
+    background: #2D3436;
+    color:#fff;
+}
 
 @media screen and (max-width: 768px) {
     .no-vector{
         display: none;
+    }
+
+    .col-mobile{
+        margin-bottom: 2rem;
     }
 }
 
