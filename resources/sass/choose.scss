@@ -3,25 +3,32 @@
 @import 'navbar';
 
 
-.search-heading {
+.choose-heading {
     font-weight: 600;
     padding-left: 4em;
 }
 
 .link-section {
+    padding-left: 7em;
+}
 
-    .link-section-btn {
-        padding-left: 7em;
-    }
-    .find-btn {
-        color: #3CB54A;
-    }
+.find-btn {
+    color: #3CB54A;
+}
 
-    .choose-btn {
-        color: #FB979B;
-    }
+.choose-btn {
+    color: #FB979B;
+}
 
-    .payment-btn {
-        color: #FFBA88;
+.payment-btn {
+    color: #FFBA88;
+}
+
+
+.go-back-section {
+    background-color: #2286C7;
+
+    .go-back-btn {
+        color: #fff;
     }
 }

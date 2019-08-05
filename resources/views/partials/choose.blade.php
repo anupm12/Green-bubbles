@@ -14,31 +14,63 @@
     <link rel="stylesheet" href="css/choose.css">
 </head>
 
-<body onload="getDate()">
+<body>
     @include('partials.navbar')
 
     <section>
         <div class="comtainer">
             <div class="row mr-0">
-                <div class="col-md-12">
-                    <h2 class="search-heading">Make a booking</h2>
+                <div class="col-md-6">
+                    <h2 class="choose-heading">Make a booking</h2>
                 </div>
             </div>
 
 
-            <div class="row pt-3">
-                <div class="col-md-6 link-section">
-                    <div class="link-section-btn">
-                        <a class="btn btn-link find-btn active" href="#" role="button">Find</a>
-                        <a class="btn btn-link choose-btn" href="#" role="button">Choose</a>
+            <div class="row pt-3 mr-0">
+                <div class="col-md-6">
+                    <div class="link-section">
+                        <a class="btn btn-link find-btn" href="#" role="button">Find</a>
+                        <a class="btn btn-link choose-btn active" href="#" role="button">Choose</a>
                         <a class="btn btn-link payment-btn" href="#" role="button">Payment</a>
                     </div>
                 </div>
             </div>
 
+            <div class="row mr-0 mt-2 go-back-section">
+                <div class="col-md-6">
+                    <img class="no-vector pl-3" src="{{ url('img/vector/back.svg') }}" alt="" name="back">
+                    <a class="btn btn-link go-back-btn pl-0" href="#" role="button" for="back">Back</a>
+                </div>
+            </div>
+
         </div>
-        
+
     </section>
+
+    <section class="pt-4 container">
+        <div class="row">
+
+            <div class="col-md-4">
+                <img class="img-fluid property-image" src="{{ url('img/vector/sample.svg') }}" alt="Card image cap">
+            </div>
+
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Mumbai chembur</h5>
+                        <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ex quis iusto dolore earum distinctio, corporis quo quibusdam quidem </p>
+                        <h5 class="card-title">Reception open working days:45:45-45:45</h5>
+                        <h5 class="card-title">Mumbai chembur</h5>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
 
 </body>
 @include('partials.jsfile')
