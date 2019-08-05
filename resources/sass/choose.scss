@@ -1,0 +1,27 @@
+@import 'variables';
+
+@import 'navbar';
+
+
+.search-heading {
+    font-weight: 600;
+    padding-left: 4em;
+}
+
+.link-section {
+
+    .link-section-btn {
+        padding-left: 7em;
+    }
+    .find-btn {
+        color: #3CB54A;
+    }
+
+    .choose-btn {
+        color: #FB979B;
+    }
+
+    .payment-btn {
+        color: #FFBA88;
+    }
+}

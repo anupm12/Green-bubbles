@@ -26,10 +26,10 @@
             </div>
 
 
-            <div class="row pt-3">
+            <div class="row pt-3 mr-0">
                 <div class="col-md-6 link-section">
                     <div class="link-section-btn">
-                        <a class="btn btn-link find-btn" href="#" role="button">Find</a>
+                        <a class="btn btn-link find-btn active" href="#" role="button">Find</a>
                         <a class="btn btn-link choose-btn" href="#" role="button">Choose</a>
                         <a class="btn btn-link payment-btn" href="#" role="button">Payment</a>
                     </div>

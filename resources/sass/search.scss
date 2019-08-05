@@ -58,3 +58,14 @@
         color: #FFBA88;
     }
 }
+
+
+@media screen and (max-width: 768px) {
+    .no-vector{
+        display: none;
+    }
+
+    .col-mobile{
+        margin-bottom: 2rem;
+    }
+}

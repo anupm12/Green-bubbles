@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/search', function () {
     return view('partials/search');
 });
+
+Route::get('/choose', function () {
+    return view('partials/choose');
+});
