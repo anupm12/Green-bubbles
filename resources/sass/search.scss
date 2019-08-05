@@ -1,0 +1,60 @@
+@import 'variables';
+
+@import 'navbar';
+
+
+// hero image
+.hero-img{
+    display: flex;
+    justify-content: center;
+
+    img{
+        width: 100%;
+    }
+
+}
+
+//form
+.icon-input{
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    background: #fff;
+    border-right: transparent;
+}
+
+.input{
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-left: transparent;
+    }
+
+.btn-search{
+    background: $blue;
+    color:#fff;
+    font-weight: 600;
+    width: 13rem;
+    border-radius: 1rem;
+}
+
+.search-heading {
+    font-weight: 600;
+    padding-left: 4em;
+}
+
+.link-section {
+
+    .link-section-btn {
+        padding-left: 7em;
+    }
+    .find-btn {
+        color: #3CB54A;
+    }
+
+    .choose-btn {
+        color: #FB979B;
+    }
+
+    .payment-btn {
+        color: #FFBA88;
+    }
+}

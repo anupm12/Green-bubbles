@@ -15,3 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 })->name('home');
 
+Route::get('/search', function () {
+    return view('partials/search');
+});
