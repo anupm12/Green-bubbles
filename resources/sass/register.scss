@@ -1,0 +1,15 @@
+@import 'variables';
+
+@import 'navbar';
+
+input{
+    border-radius: 1rem !important;
+}
+
+button{
+    border-radius: 1rem !important;
+}
+
+.card{
+    box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.25);
+}

@@ -49,16 +49,20 @@ body {
   border-radius: 1rem; }
 
 .search-heading {
-  font-weight: 600;
-  padding-left: 4em; }
+  font-weight: 600; }
 
-.link-section .link-section-btn {
-  padding-left: 7em; }
 .link-section .find-btn {
   color: #3CB54A; }
 .link-section .choose-btn {
   color: #FB979B; }
 .link-section .payment-btn {
   color: #FFBA88; }
+
+@media screen and (max-width: 768px) {
+  .no-vector {
+    display: none; }
+
+  .col-mobile {
+    margin-bottom: 2rem; } }
 
 /*# sourceMappingURL=search.css.map */

@@ -18,7 +18,7 @@
     @include('partials.navbar')
 
     <section>
-        <div class="comtainer">
+        <div class="container">
             <div class="row mr-0">
                 <div class="col-md-6">
                     <h2 class="choose-heading">Make a booking</h2>

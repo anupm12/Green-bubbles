@@ -22,3 +22,6 @@ Route::get('/search', function () {
 Route::get('/choose', function () {
     return view('partials/choose');
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
