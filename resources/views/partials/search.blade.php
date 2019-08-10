@@ -18,7 +18,7 @@
     @include('partials.navbar')
 
     <section>
-        <div class="comtainer">
+        <div class="container">
             <div class="row mr-0">
                 <div class="col-md-12">
                     <h2 class="search-heading">Make a booking</h2>
@@ -28,16 +28,14 @@
 
             <div class="row pt-3 mr-0">
                 <div class="col-md-6 link-section">
-                    <div class="link-section-btn">
                         <a class="btn btn-link find-btn active" href="#" role="button">Find</a>
                         <a class="btn btn-link choose-btn" href="#" role="button">Choose</a>
                         <a class="btn btn-link payment-btn" href="#" role="button">Payment</a>
-                    </div>
                 </div>
             </div>
 
         </div>
-        
+
     </section>
 
     <section class="pt-1">

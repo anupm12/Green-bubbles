@@ -18,7 +18,7 @@
     @include('partials.navbar')
 
     <section>
-        <div class="comtainer">
+        <div class="container">
             <div class="row mr-0">
                 <div class="col-md-12">
                     <h2 class="search-heading">Make a booking</h2>
@@ -37,7 +37,7 @@
             </div>
 
         </div>
-        
+
     </section>
 
 </body>
