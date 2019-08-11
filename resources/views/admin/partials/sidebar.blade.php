@@ -37,8 +37,9 @@
         <div id="collapseOne" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Actions:</h6>
-                <a class="collapse-item" href="/admin/add-rescuer">Add property</a>
-                <a class="collapse-item" href="cards.html">View property</a>
+                <a class="collapse-item" href="{{ route('addProperty') }}">Add property</a>
+                <a  class="collapse-item" href="{{ route('addLocation') }}">Add Location</a>
+                <a class="collapse-item" href="{{ route('viewProperty') }}">View property</a>
             </div>
         </div>
     </li>
